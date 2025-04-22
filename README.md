@@ -6,7 +6,7 @@ This repository documents my study and interpretation of foundational probabilit
 
 - [`2025-04-20-intro.md`](notes/probability/2025-04-20-intro.md) – Introduction to probability model on `[0,1]`
 - [`2025-04-21-borel.md`](notes/probability/2025-04-21-borel.md) – Borel’s Normal Number Theorem (dyadic expansions, binomial model)
-- [2025-04-22-wlln.md](notes/probability/2025-04-22-wlln.md) – Weak Law of Large Numbers (Rademacher functions, Chebyshev's inequality)
+- [`2025-04-22-wlln.md`](notes/probability/2025-04-22-wlln.md) – Weak Law of Large Numbers (Rademacher functions, Chebyshev's inequality)
 
 
 
