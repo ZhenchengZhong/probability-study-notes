@@ -8,6 +8,7 @@ This repository documents my study and interpretation of foundational probabilit
 - [`2025-04-21-borel.md`](notes/probability/2025-04-21-borel.md) – Borel’s Normal Number Theorem (dyadic expansions, binomial model)
 - [`2025-04-22-wlln.md`](notes/probability/2025-04-22-wlln.md) – Weak Law of Large Numbers (Rademacher functions, Chebyshev's inequality)
 - [`2025-04-25-borel-normal-number-theorem.md`](notes/probability/2025-04-25-borel-normal-number-theorem.md) – Strong Law of Large Numbers and Normal Numbers (negligibility, Borel's theorem)
+- [`2025-04-26-borel-normal-proof-details.md`](notes/probability/2025-04-26-borel-normal-proof-details.md) – Strong Law of Large Numbers and Normal Numbers (proof details, English reading practice)
 
 
 
