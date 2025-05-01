@@ -6,6 +6,7 @@ Section: Chapter 1, pp. 13–15 – Diophantine approximation and negligible set
 
 ---
 
+
 > **Note**:  
 > Today's focus is on understanding rational approximations of irrational numbers, the measure-theoretic nature of approximation sets, and how convergence of series determines their negligibility.
 
