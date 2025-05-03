@@ -12,7 +12,7 @@ This repository documents my study and interpretation of foundational probabilit
 - [`2025-04-27-strong-weak-lln.md`](notes/probability/2025-04-27-strong-weak-lln.md) – Strong Law vs Weak Law of Large Numbers (proof details, English reading practice)
 - [`2025-05-01-diophantine-approximation-measure-theory.md`](notes/probability/2025-05-01-diophantine-approximation-measure-theory.md) – Diophantine approximation and measure theory (infinite rational approximations, negligible sets)
 - [`2025-05-02-discrete-density.md`](notes/probability/2025-05-02-discrete-density.md) – Discrete probability space limitations and density in (0,1)
-
+- [`2025-05-03-mgf-trifling-cantor.md`](notes/probability/2025-05-03-mgf-trifling-cantor.md) – Moment Generating Functions, Trifling Sets, and the Cantor Set (proof details, integral identities)
 
 
 
