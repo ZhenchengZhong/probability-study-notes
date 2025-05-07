@@ -1,6 +1,6 @@
 # Study Notes: Normal Numbers and Diophantine Approximation
 
-Date: 2025-05-06
+Date: 2025-05-07
 Textbook: Probability and Measure (Third Edition) by Patrick Billingsley
 Section: Chapter 1.8–1.11
 
