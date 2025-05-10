@@ -13,7 +13,7 @@ Section: Example 2.2 and surrounding discussion (𝓑₀ field, non-σ-field str
 
 ## Key Ideas
 
-* 𝓑₀ is a collection of sets built from finite disjoint unions of right-open left-closed intervals (a, a'] on the interval (0,1].
+* 𝓑₀ is a collection of sets built from finite disjoint unions of right-closed left-open intervals (a, a'] on the interval (0,1].
 * 𝓑₀ is a field: it satisfies closure under complement, finite union, and finite intersection.
 * 𝓑₀ is not a σ-field: it is not closed under countable unions or countable intersections.
 * The set {x}, although expressible as the countable intersection of 𝓑₀-sets, is not in 𝓑₀ because 𝓑₀ is not countably closed.
