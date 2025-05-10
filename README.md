@@ -15,6 +15,7 @@ This repository documents my study and interpretation of foundational probabilit
 - [`2025-05-03-mgf-trifling-cantor.md`](notes/probability/2025-05-03-mgf-trifling-cantor.md) – Moment Generating Functions, Trifling Sets, and the Cantor Set (proof details, integral identities)
 - [`2025-05-07-normal-diophantine.md`](notes/probability/2025-05-07-normal-diophantine.md) – Normal numbers, trifling sets, Diophantine approximation (proof details, measure vs topology
 - [`2025-05-08-probability-measures-fields.md`](notes/probability/2025-05-08-probability-measures-fields.md) – Probability measures, fields, and σ-fields (definition system, normal number example)
+- [`2025-05-10-b0-field-vs-sigma.md`](notes/probability/2025-05-10-b0-field-vs-sigma.md) – Field Structure and Limitations of 𝓑₀ (definition analysis, σ-field contrast, learning reflection)
 
 
 
