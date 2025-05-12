@@ -16,6 +16,7 @@ This repository documents my study and interpretation of foundational probabilit
 - [`2025-05-07-normal-diophantine.md`](notes/probability/2025-05-07-normal-diophantine.md) – Normal numbers, trifling sets, Diophantine approximation (proof details, measure vs topology
 - [`2025-05-08-probability-measures-fields.md`](notes/probability/2025-05-08-probability-measures-fields.md) – Probability measures, fields, and σ-fields (definition system, normal number example)
 - [`2025-05-10-b0-field-vs-sigma.md`](notes/probability/2025-05-10-b0-field-vs-sigma.md) – Field Structure and Limitations of 𝓑₀ (definition analysis, σ-field contrast, learning reflection)
+- [`2025-05-12-sigma-field-borel-logic.md`](notes/probability/2025-05-12-sigma-field-borel-logic.md) – σ-field definitions and Borel sets from intervals (motivation, examples, construction)
 
 
 
