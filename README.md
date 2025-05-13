@@ -17,6 +17,7 @@ This repository documents my study and interpretation of foundational probabilit
 - [`2025-05-08-probability-measures-fields.md`](notes/probability/2025-05-08-probability-measures-fields.md) – Probability measures, fields, and σ-fields (definition system, normal number example)
 - [`2025-05-10-b0-field-vs-sigma.md`](notes/probability/2025-05-10-b0-field-vs-sigma.md) – Field Structure and Limitations of 𝓑₀ (definition analysis, σ-field contrast, learning reflection)
 - [`2025-05-12-sigma-field-borel-logic.md`](notes/probability/2025-05-12-sigma-field-borel-logic.md) – σ-field definitions and Borel sets from intervals (motivation, examples, construction)
+- [`2025-05-13-probability-measure-properties.md`](notes/probability/2025-05-13-probability-measure-properties.md) – Properties of probability measures and continuity (definition, proof sketch)
 
 
 
