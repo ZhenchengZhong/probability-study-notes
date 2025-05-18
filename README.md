@@ -19,6 +19,7 @@ This repository documents my study and interpretation of foundational probabilit
 - [`2025-05-12-sigma-field-borel-logic.md`](notes/probability/2025-05-12-sigma-field-borel-logic.md) – σ-field definitions and Borel sets from intervals (motivation, examples, construction)
 - [`2025-05-13-probability-measure-properties.md`](notes/probability/2025-05-13-probability-measure-properties.md) – Properties of probability measures and continuity (definition, proof sketch)
 - [`2025-05-17-cylinder-product-measure.md`](notes/probability/2025-05-17-cylinder-product-measure.md) – Cylinder sets and product measures on S^∞ (compactness, recursive construction, sigma field)
+- [`2025-05-18-indicator-and-union-intersection-duality.md`](notes/probability/2025-05-18-indicator-and-union-intersection-duality.md) – Indicator functions and duality between unions and intersections (Problems 2.1, 2.2)
 
 
 
