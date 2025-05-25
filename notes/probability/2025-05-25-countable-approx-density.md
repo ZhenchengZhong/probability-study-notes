@@ -65,10 +65,10 @@ Section: Chapter 2 – Probability Measures (Problems 2.16–2.18)
 
 ## Key Ideas
 
-* **Countable approximation** is a universal strategy to bring uncountable collections into the scope of countable theorems (like Theorem 2.1).
-* We often **construct sequences** (e.g., t\_n = 1/n or t\_n = n) to reduce uncountable index sets to sequences.
-* The idea of **"disjointification"** is central when proving additivity in fields: redefine B\_n := A\_n \ ∪\_{k\<n} A\_k to get a disjoint family.
-* **Natural density** D is a classical example of a set function that is finitely additive but not countably additive, illustrating subtle limitations in probabilistic set functions outside σ-additive frameworks.
+* Countable approximation is a universal strategy to bring uncountable collections into the scope of countable theorems (like Theorem 2.1).
+* We often construct sequences (e.g., t\_n = 1/n or t\_n = n) to reduce uncountable index sets to sequences.
+* The idea of "disjointification" is central when proving additivity in fields: redefine B\_n := A\_n \ ∪\_{k\<n} A\_k to get a disjoint family.
+* Natural density D is a classical example of a set function that is finitely additive but not countably additive, illustrating subtle limitations in probabilistic set functions outside σ-additive frameworks.
 
 ---
 
