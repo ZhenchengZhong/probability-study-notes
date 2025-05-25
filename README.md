@@ -22,6 +22,7 @@ This repository documents my study and interpretation of foundational probabilit
 - [`2025-05-18-indicator-and-union-intersection-duality.md`](notes/probability/2025-05-18-indicator-and-union-intersection-duality.md) – Indicator functions and duality between unions and intersections (Problems 2.1, 2.2)
 - [`2025-05-21-generated-fields-countable-closure.md`](notes/probability/2025-05-21-generated-fields-countable-closure.md) – Generated fields, σ-fields, and countability (proof structure, conceptual logic)
 - [`2025-05-24-sigma-fields-and-additivity.md`](notes/probability/2025-05-24-sigma-fields-and-additivity.md) – Sigma-fields and finite vs countable additivity (structural logic, proof details)
+- [`2025-05-25-countable-approx-density.md`](notes/probability/2025-05-25-countable-approx-density.md) – Countable approximation and natural density (continuity, disjointification, finite vs countable additivity)
 
 
 
