@@ -1,7 +1,3 @@
-好的，以下是根据你今天的学习内容（重点是 **2.18 \~ 2.20** 题）整理出的 GitHub 学习笔记，完全符合你提供的书写规范和风格：
-
----
-
 # Study Notes: Discrete density, translation invariance, and product measure construction
 
 Date: 2025-05-28
