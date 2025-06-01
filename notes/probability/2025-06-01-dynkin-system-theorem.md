@@ -31,7 +31,7 @@ Section: Chapter 3, Section 3 (pp. 38–41)
 
 ## Key Ideas
 
-* The proof revolves around managing **seven different sets or families**:
+* The proof revolves around managing seven different sets or families:
 
   1. Ω: the universal set
   2. ℘: the given π-system
