@@ -27,6 +27,7 @@ This repository documents my study and interpretation of foundational probabilit
 - [`2025-05-29-caratheodory-extension.md`](notes/probability/2025-05-29-caratheodory-extension.md) – Construction of outer measure and Carathéodory measurable sets (proof logic, conceptual motivation)
 - [`2025-06-01-dynkin-system-theorem.md`](notes/probability/2025-06-01-dynkin-system-theorem.md) – Dynkin System Theorem and Its Proof (proof details, set family analysis)
 - [`2025-06-02-pi-lambda-borel-uniqueness.md`](notes/probability/2025-06-02-pi-lambda-borel-uniqueness.md) – π-λ theorem and Borel measure uniqueness (proof details, monotone class, English reading)
+- [`2025-06-03-extension-uniqueness-measure.md`](notes/probability/2025-06-03-extension-uniqueness-measure.md) – Extension and Uniqueness of Probability Measures (measure construction, π-λ theorem, nonmeasurable sets)
 
 
 
