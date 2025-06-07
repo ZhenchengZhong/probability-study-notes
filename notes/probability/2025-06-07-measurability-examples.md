@@ -1,8 +1,8 @@
 # Study Notes: Measurability Examples and Outer Measure Definitions
 
-Date: 2025-06-07
+Date: 2025-06-05
 Textbook: Probability and Measure, Third Edition by Patrick Billingsley
-Section: Chapter 3 (esp. Theorem 3.1, 3.2, and related exercises), pp.47
+Section: Chapter 3 (esp. Theorem 3.1, 3.2, and related exercises),pp.47
 
 ---
 
