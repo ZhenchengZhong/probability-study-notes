@@ -29,6 +29,7 @@ This repository documents my study and interpretation of foundational probabilit
 - [`2025-06-02-pi-lambda-borel-uniqueness.md`](notes/probability/2025-06-02-pi-lambda-borel-uniqueness.md) – π-λ theorem and Borel measure uniqueness (proof details, monotone class, English reading)
 - [`2025-06-03-extension-uniqueness-measure.md`](notes/probability/2025-06-03-extension-uniqueness-measure.md) – Extension and Uniqueness of Probability Measures (measure construction, π-λ theorem, nonmeasurable sets)
 - [`2025-06-07-outer-inner-measure-measurability.md`](notes/probability/2025-06-07-outer-inner-measure-measurability.md) – Outer and inner measure, measurable sets, and σ-field differences (Carathéodory logic, proof strategy)
+- [`2025-06-10-outer-measure-nonmeasurable.md`](notes/probability/2025-06-10-outer-measure-nonmeasurable.md) – Outer measures and non-measurable sets (proof details, Carathéodory condition, visual examples)
 
 
 
