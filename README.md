@@ -31,6 +31,7 @@ This repository documents my study and interpretation of foundational probabilit
 - [`2025-06-07-outer-inner-measure-measurability.md`](notes/probability/2025-06-07-outer-inner-measure-measurability.md) – Outer and inner measure, measurable sets, and σ-field differences (Carathéodory logic, proof strategy)
 - [`2025-06-10-outer-measure-nonmeasurable.md`](notes/probability/2025-06-10-outer-measure-nonmeasurable.md) – Outer measures and non-measurable sets (proof details, Carathéodory condition, visual examples)
 - [`2025-06-15-measure-extension-and-lambda-systems.md`](notes/probability/2025-06-15-measure-extension-and-lambda-systems.md) – Measure extension theorems and λ-system characterizations (proof details, foundational logic)
+- [`2025-06-18-vitali-borel-lebesgue.md`](notes/probability/2025-06-18-vitali-borel-lebesgue.md) – Vitali construction, Borel vs Lebesgue σ-algebras, and nonmeasurable sets (proof details, definitions, reflections)
 
 
 
