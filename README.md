@@ -33,6 +33,7 @@ This repository documents my study and interpretation of foundational probabilit
 - [`2025-06-15-measure-extension-and-lambda-systems.md`](notes/probability/2025-06-15-measure-extension-and-lambda-systems.md) – Measure extension theorems and λ-system characterizations (proof details, foundational logic)
 - [`2025-06-18-vitali-borel-lebesgue.md`](notes/probability/2025-06-18-vitali-borel-lebesgue.md) – Vitali construction, Borel vs Lebesgue σ-algebras, and nonmeasurable sets (proof details, definitions, reflections)
 - [`2025-06-20-nowhere-dense-nonmeasurable.md`](notes/probability/2025-06-20-nowhere-dense-nonmeasurable.md) – Nowhere dense sets, nonmeasurable construction, and chain rule formulas (proof details, translation invariance)
+- [`2025-06-22-independence-theta.md`](notes/probability/2025-06-22-independence-theta.md) – Independence of sigma-fields indexed by general sets (limit sets, pi-systems, infinite extension)
 
 
 
