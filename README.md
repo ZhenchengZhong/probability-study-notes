@@ -34,6 +34,7 @@ This repository documents my study and interpretation of foundational probabilit
 - [`2025-06-18-vitali-borel-lebesgue.md`](notes/probability/2025-06-18-vitali-borel-lebesgue.md) – Vitali construction, Borel vs Lebesgue σ-algebras, and nonmeasurable sets (proof details, definitions, reflections)
 - [`2025-06-20-nowhere-dense-nonmeasurable.md`](notes/probability/2025-06-20-nowhere-dense-nonmeasurable.md) – Nowhere dense sets, nonmeasurable construction, and chain rule formulas (proof details, translation invariance)
 - [`2025-06-22-independence-theta.md`](notes/probability/2025-06-22-independence-theta.md) – Independence of sigma-fields indexed by general sets (limit sets, pi-systems, infinite extension)
+- [`2025-06-23-independence-sigma-dyadic.md`](notes/probability/2025-06-23-independence-sigma-dyadic.md) – Independence of σ-fields and dyadic approximation (π-system, A-equivalence, Borel–Cantelli)
 
 
 
