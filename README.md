@@ -36,6 +36,7 @@ This repository documents my study and interpretation of foundational probabilit
 - [`2025-06-22-independence-theta.md`](notes/probability/2025-06-22-independence-theta.md) – Independence of sigma-fields indexed by general sets (limit sets, pi-systems, infinite extension)
 - [`2025-06-23-independence-sigma-dyadic.md`](notes/probability/2025-06-23-independence-sigma-dyadic.md) – Independence of σ-fields and dyadic approximation (π-system, A-equivalence, Borel–Cantelli)
 - [`2025-06-25-borel-cantelli-error-bound.md`](notes/probability/2025-06-25-borel-cantelli-error-bound.md) – Borel–Cantelli lemma and binary approximation error (run length, envelope, proof structure)
+- [`2025-06-29-zero-one-law-boundaries.md`](notes/probability/2025-06-29-zero-one-law-boundaries.md) – Zero-One Law, Lower Envelopes, and Boundary Analysis for Run Lengths (Billingsley Example 4.16-4.21)
 
 
 
