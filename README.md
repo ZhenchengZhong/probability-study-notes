@@ -38,7 +38,7 @@ This repository documents my study and interpretation of foundational probabilit
 - [`2025-06-25-borel-cantelli-error-bound.md`](notes/probability/2025-06-25-borel-cantelli-error-bound.md) – Borel–Cantelli lemma and binary approximation error (run length, envelope, proof structure)
 - [`2025-06-29-zero-one-law-boundaries.md`](notes/probability/2025-06-29-zero-one-law-boundaries.md) – Zero-One Law, Lower Envelopes, and Boundary Analysis for Run Lengths (Billingsley Example 4.16-4.21)
 - [`2025-07-01-limsup-liminf-sets-numerical.md`](notes/probability/2025-07-01-limsup-liminf-sets-numerical.md) – Limit superior, limit inferior for sets and numerical sequences (Billingsley 4.1, 4.2, proof details)
-
+- [`2025-07-06-borel-cantelli-nonatomic.md`] –(notes/probability/2025-07-06-borel-cantelli-nonatomic.md) Borel-Cantelli lemmas, limsup sets, and nonatomicity (proof details, English reading practice)
 
 
 ## Study Goal
