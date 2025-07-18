@@ -41,6 +41,7 @@ This repository documents my study and interpretation of foundational probabilit
 - [`2025-07-06-borel-cantelli-nonatomic.md`](notes/probability/2025-07-06-borel-cantelli-nonatomic.md) – Borel-Cantelli lemmas, limsup sets, and nonatomic measures (proof details)
 - [`2025-07-10-independent-sequences.md`](notes/probability/2025-07-10-independent-sequences.md) – Independence, dyadic expansions, and construction of independent sequences (proof details)
 - [`2025-07-14-expected-value-convexity-Lp.md`](notes/probability/2025-07-14-expected-value-convexity-Lp.md) – Expected value, convexity, and Lᵖ inequalities (definition, geometric interpretation, integral representation)
+- [`2025-07-18-measurability-inequalities.md`](notes/probability/2025-07-18-measurability-inequalities.md) – Measurability and classical inequalities (Jensen, Cantelli, Schwarz)
 
 
 
