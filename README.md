@@ -43,6 +43,7 @@ This repository documents my study and interpretation of foundational probabilit
 - [`2025-07-14-expected-value-convexity-Lp.md`](notes/probability/2025-07-14-expected-value-convexity-Lp.md) – Expected value, convexity, and Lᵖ inequalities (definition, geometric interpretation, integral representation)
 - [`2025-07-18-measurability-inequalities.md`](notes/probability/2025-07-18-measurability-inequalities.md) – Measurability and classical inequalities (Jensen, Cantelli, Schwarz)
 - [`2025-07-21-borel-convergence-counterexamples.md`](notes/probability/2025-07-21-borel-convergence-counterexamples.md) – Borel–Cantelli Lemma II and convergence counterexamples (proof details, convergence theory)
+- [`2025-07-24-prime-asymptotics-from-expectation.md`](notes/probability/2025-07-24-prime-asymptotics-from-expectation.md) – Prime number asymptotics via probabilistic expectations (proof details, number theory, expectation methods)
 
 
 
