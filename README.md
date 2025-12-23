@@ -48,6 +48,7 @@ This repository documents my study and interpretation of foundational probabilit
 - [`2025-08-06-lln-exercises-6.6-6.14.md`](notes/probability/2025-08-06-lln-exercises-6.6-6.14.md) – LLN-based exercises, normality & Shannon AEP (proof sketches, reading notes)
 - [`2025-08-11-ex6.15-to-ex7.7.md`](notes/probability/2025-08-11-ex6.15-to-ex7.7.md) – Exercises 6.15–6.17 and Example 7.7 (gambler's ruin, difference equations, stopping times, boundedness)
 - [`2025-08-13-bold-play-dubins-savage.md`](notes/probability/2025-08-13-bold-play-dubins-savage.md) – Bold Play, Dubins–Savage, and Timid Play (recursion for Q(x), proof cases, examples 7.8–7.9, problems 7.1–7.2)
+- [`2025-12-23-gambling-systems-timid-doubling-progress.md`](notes/probability/2025-12-23-gambling-systems-timid-doubling-progress.md) – Gambling Systems: Timid Play, Optional Stopping, and Betting Schemes (SLLN, Borel–Cantelli, optional stopping, classic strategies)
 
 
 
