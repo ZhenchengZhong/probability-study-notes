@@ -49,6 +49,7 @@ This repository documents my study and interpretation of foundational probabilit
 - [`2025-08-11-ex6.15-to-ex7.7.md`](notes/probability/2025-08-11-ex6.15-to-ex7.7.md) – Exercises 6.15–6.17 and Example 7.7 (gambler's ruin, difference equations, stopping times, boundedness)
 - [`2025-08-13-bold-play-dubins-savage.md`](notes/probability/2025-08-13-bold-play-dubins-savage.md) – Bold Play, Dubins–Savage, and Timid Play (recursion for Q(x), proof cases, examples 7.8–7.9, problems 7.1–7.2)
 - [`2025-12-23-gambling-systems-timid-doubling-progress.md`](notes/probability/2025-12-23-gambling-systems-timid-doubling-progress.md) – Gambling Systems: Timid Play, Optional Stopping, and Betting Schemes (SLLN, Borel–Cantelli, optional stopping, classic strategies)
+- [`2025-12-25-functional-equation-Q-and-binary-expansion.md`](notes/probability/2025-12-25-functional-equation-Q-and-binary-expansion.md) – Solving the functional equation for Q via binary expansions (Exercise 7.13, continuity, boundedness)
 
 
 
