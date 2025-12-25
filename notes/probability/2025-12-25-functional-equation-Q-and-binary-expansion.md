@@ -1,0 +1,162 @@
+# Study Notes: Solving the Functional Equation for Q via Binary Expansions (Exercise 7.13)
+
+Date: 2025-12-25  
+Textbook: Probability (Chapter 7: Martingales / Gambling and Optimal Strategies)  
+Section: Exercise 7.13 and the discussion around (7.30)
+
+---
+
+> Note:  
+> Today's focus is on understanding how the functional equation (7.30), together with boundedness, pins down Q uniquely, and why the binary expansion viewpoint gives continuity and stability estimates.
+
+## Content Logic
+
+The textbook introduces a function Q on [0, 1] that satisfies a two-branch functional equation:
+
+Q(x) = p Q(2x), for 0 <= x <= 1/2,  
+Q(x) = p + q Q(2x - 1), for 1/2 <= x <= 1,
+
+with boundary values Q(0) = 0 and Q(1) = 1.
+
+The main message of Exercise 7.13 is that:
+
+- The recursion above is strong enough to determine Q completely, as long as we also assume Q is bounded.
+- A convenient way to see this is to encode x by its binary expansion and iterate the recursion along the bits.
+- This approach yields a quantitative bound: if two numbers share the first n binary digits, then their Q-values differ by at most a constant times m^n, where m = max(p, q).
+- As a consequence, Q is continuous, and the binary recursion gives a consistent way to compute Q on dyadic points and then extend to all of [0, 1].
+
+## Key Ideas
+
+- The functional equation reduces the argument from x to either 2x (left half) or 2x - 1 (right half). This is exactly the “shift” operation in binary.
+- Introduce two maps on [0, 1] that add a binary prefix:
+  - T0(x) = (1/2) x  (prefix a 0)
+  - T1(x) = (1/2) x + (1/2)  (prefix a 1)
+- Introduce two affine maps on values (not on x):
+  - f0(z) = p z
+  - f1(z) = p + q z
+- Then the recursion can be rewritten in a clean compositional form:
+  - Q(Tu(x)) = fu(Q(x)) for u in {0, 1}
+- Iterating this gives:
+  - Q(Tu1 ... Tun x) = fu1 ... fun Q(x)
+
+This matches the idea that the first n binary digits of x tell you which branch of the recursion you should apply n times.
+
+## Proof Sketch (Step-by-step)
+
+### 1) Fix boundary conditions
+
+Because Q is a success probability type function on [0, 1], the endpoints are forced:
+
+Q(0) = 0,  
+Q(1) = 1.
+
+These serve as the “anchor values” for the recursion.
+
+### 2) Rewrite the functional equation using T0, T1 and f0, f1
+
+Check each branch directly:
+
+- For T0(x) = x/2, we are in the region x/2 <= 1/2, so:
+  Q(T0(x)) = Q(x/2) = p Q(2 * x/2) = p Q(x) = f0(Q(x)).
+
+- For T1(x) = x/2 + 1/2, we are in the region >= 1/2, so:
+  Q(T1(x)) = Q(x/2 + 1/2)
+           = p + q Q(2(x/2 + 1/2) - 1)
+           = p + q Q(x)
+           = f1(Q(x)).
+
+So we have a single unified identity:
+Q(Tu(x)) = fu(Q(x)).
+
+### 3) Iterate along a binary prefix
+
+If u1, ..., un is a binary string (each ui is 0 or 1), then applying the unified identity repeatedly gives:
+
+Q(Tu1 ... Tun x) = fu1 ... fun Q(x).
+
+This is just repeated substitution, but it is the central structural fact.
+
+### 4) Compare two points that share the same first n binary digits
+
+If x and y have the same first n binary digits u1, ..., un, then they can be written as:
+
+x = Tu1 ... Tun x',  
+y = Tu1 ... Tun y',
+
+for some tail points x', y' in [0, 1].
+
+Using the iterated identity:
+
+Q(x) = fu1 ... fun Q(x'),  
+Q(y) = fu1 ... fun Q(y').
+
+Hence:
+
+|Q(x) - Q(y)| = |fu1 ... fun Q(x') - fu1 ... fun Q(y')|.
+
+Now the key observation is how f0 and f1 act on differences:
+
+- f0(a) - f0(b) = p(a - b), so it scales differences by p.
+- f1(a) - f1(b) = q(a - b), since the constant p cancels, so it scales differences by q.
+
+Therefore each fu scales differences by at most m = max(p, q). After n compositions:
+
+|Q(x) - Q(y)| <= m^n |Q(x') - Q(y')|.
+
+### 5) Use boundedness to finish the estimate
+
+Assume Q is bounded: there exists K such that |Q(t)| <= K for all t in [0, 1].
+
+Then:
+
+|Q(x') - Q(y')| <= |Q(x')| + |Q(y')| <= 2K.
+
+So we obtain the stability bound:
+
+|Q(x) - Q(y)| <= 2K m^n.
+
+(The textbook writes this with a generic constant; the exact factor 2 is not important.)
+
+### 6) Deduce continuity of Q
+
+If two numbers x and y are close, their binary expansions share many initial digits, i.e., n can be taken large.
+
+Since 0 < m < 1 when 0 < p, q < 1, we have m^n -> 0 as n -> infinity. The bound
+
+|Q(x) - Q(y)| <= 2K m^n
+
+then forces |Q(x) - Q(y)| -> 0 as y -> x. This is continuity.
+
+### 7) Why this determines Q completely
+
+A practical way to think about “complete determination” is:
+
+- Dyadic rationals (numbers of the form k / 2^n) have finite binary expansions (up to the usual dual-expansion issue).
+- For such points, repeated application of the recursion expresses Q(k / 2^n) as a composition of f0/f1 evaluated at Q(0) or Q(1), which are already fixed.
+- Since Q is continuous, the values on dyadic points determine the values on all points by taking limits along dyadic approximations.
+
+So the recursion plus boundedness leaves no room for alternative solutions: any bounded solution must coincide with the one generated by this binary-iteration mechanism.
+
+## What This Page Is Saying (in plain English)
+
+- (7.30) is a self-similarity rule for Q: it tells you how to compute Q on the left half of [0, 1] from Q on the whole interval, and similarly on the right half.
+- Binary expansion is the natural language for repeatedly “zooming in” by factors of 2.
+- Each binary digit tells you which branch to use, and the corresponding affine map f0 or f1 tells you how Q-values transform.
+- Because the maps shrink differences by at most max(p, q), the function cannot behave wildly: two nearby points (sharing many leading binary digits) must have very close Q-values.
+- This gives continuity and, together with boundary values, makes Q uniquely determined.
+
+## Questions & Confusions
+
+- The dual binary expansion issue: dyadic rationals have two representations (ending in all 0s vs all 1s). I should check how the book handles this detail when asserting uniqueness (the continuity argument should resolve it, but it is worth being explicit).
+- In the inequality |Q(x) - Q(y)| <= K m^n, the constant differs depending on whether one bounds |Q| by K or bounds |Q(x') - Q(y')| directly. The exact constant is not important, but I want to be consistent in future write-ups.
+
+## Reflections
+
+This exercise felt like a clean example of a general method:
+
+- Rewrite a piecewise recursion using prefix maps (T0, T1),
+- Track how value maps (f0, f1) contract differences,
+- Use boundedness to control the tail,
+- Then conclude continuity and uniqueness via “shared prefix implies closeness”.
+
+It also connects naturally to dynamic programming: the binary digits are basically encoding which local decision rule (left/right branch) is applied at each scale.
