@@ -52,6 +52,7 @@ This repository documents my study and interpretation of foundational probabilit
 - [`2025-12-25-functional-equation-Q-and-binary-expansion.md`](notes/probability/2025-12-25-functional-equation-Q-and-binary-expansion.md) – Solving the functional equation for Q via binary expansions (Exercise 7.13, continuity, boundedness)
 - [`2026-01-03-markov-chains-recurrence-irreducibility.md`](notes/probability/2026-01-03-markov-chains-recurrence-irreducibility.md) – Markov Chains: transience vs recurrence, Polya’s theorem, irreducibility, and staying in a set (proof sketches, reading practice)
 - [`2026-01-15-markov-chains-stationary-recurrence-mixing.md`](notes/probability/2026-01-15-markov-chains-stationary-recurrence-mixing.md) – Markov Chains: Stationary Distributions, Recurrence Classification, and Exponential Convergence (coupling proof, classification theorem, exponential mixing)
+- [`2026-02-05-markov-chains-optimal-stopping.md`](notes/probability/2026-02-05-markov-chains-optimal-stopping.md) – Optimal Stopping in Finite Markov Chains (excessive functions, minimal majorant, hitting time optimality)
 
 
 ## Study Goal
