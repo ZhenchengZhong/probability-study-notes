@@ -2,7 +2,7 @@
 
 Date: 2026-06-05  
 Textbook: Probability and Measure, Patrick Billingsley  
-Section: Chapter 1, Section 8, Markov Chains – Optimal Stopping, p138-139
+Section: Chapter 1, Section 8, Markov Chains – Optimal Stopping, p138-139 
 
 ---
 
