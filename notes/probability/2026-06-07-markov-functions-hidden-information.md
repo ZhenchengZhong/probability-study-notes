@@ -2,7 +2,7 @@
 
 Date: 2026-06-07  
 Textbook: Billingsley, Probability and Measure  
-Section: Chapter 1, Section 8, Problems 8.2–8.3
+Section: Chapter 1, Section 8, Problems 8.2–8.3, p 139
 
 ---
 
