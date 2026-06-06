@@ -54,6 +54,7 @@ This repository documents my study and interpretation of foundational probabilit
 - [`2026-01-15-markov-chains-stationary-recurrence-mixing.md`](notes/probability/2026-01-15-markov-chains-stationary-recurrence-mixing.md) – Markov Chains: Stationary Distributions, Recurrence Classification, and Exponential Convergence (coupling proof, classification theorem, exponential mixing)
 - [`2026-02-05-markov-chains-optimal-stopping.md`](notes/probability/2026-02-05-markov-chains-optimal-stopping.md) – Optimal Stopping in Finite Markov Chains (excessive functions, minimal majorant, hitting time optimality)
 - [`2026-06-05-princess-selection-optimal-stopping.md`](notes/probability/2026-06-05-princess-selection-optimal-stopping.md) – Princess Selection Problem and Optimal Stopping Threshold (Markov chains, stopping set, value function)
+- [`2026-06-07-markov-functions-hidden-information.md`](notes/probability/2026-06-07-markov-functions-hidden-information.md) – Markov chains and functions of Markov chains (hidden information, counterexamples, proof details)
 
 ## Study Goal
 
