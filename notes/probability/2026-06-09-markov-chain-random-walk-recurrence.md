@@ -2,7 +2,7 @@
 
 Date: 2026-06-09  
 Textbook: Billingsley, Probability and Measure  
-Section: Chapter 1, Section 8, Markov Chains
+Section: Chapter 1, Section 8, Markov Chains，p139-140
 
 ---
 
