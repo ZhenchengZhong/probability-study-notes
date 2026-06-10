@@ -1,8 +1,9 @@
-# Study Notes: Markov Chain Subsolutions and One-Dimensional Random Walk Recurrence
+# Exercise Notes: Markov Chain Subsolutions and One-Dimensional Random Walk Recurrence
 
 Date: 2026-06-09  
 Textbook: Billingsley, Probability and Measure  
-Section: Chapter 1, Section 8, Markov Chains，p139-140
+Section: Chapter 1, Section 8, Markov Chains  
+Exercises: 8.4, 8.5, 8.6，p139-140
 
 ---
 
