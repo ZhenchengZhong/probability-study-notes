@@ -56,7 +56,8 @@ This repository documents my study and interpretation of foundational probabilit
 - [`2026-06-05-princess-selection-optimal-stopping.md`](notes/probability/2026-06-05-princess-selection-optimal-stopping.md) – Princess Selection Problem and Optimal Stopping Threshold (Markov chains, stopping set, value function)
 - [`2026-06-07-markov-chain-exercises-construction-hidden-information.md`](notes/probability/2026-06-07-markov-chain-exercises-construction-hidden-information.md) – Markov chain exercises on construction and hidden information (Exercises 8.1–8.3, sequence space, counterexamples)
 - [`2026-06-09-markov-chain-exercises-random-walk-recurrence.md`](notes/probability/2026-06-09-markov-chain-exercises-random-walk-recurrence.md) – Exercise Notes on Markov chain recurrence criterion for one-dimensional random walk (subsolutions, bounded solutions, recurrence)
-  
+  - [`2026-06-13-markov-chain-exercises-8-7-to-8-15.md`](notes/probability/2026-06-13-markov-chain-exercises-8-7-to-8-15.md) – Markov Chain Exercises 8.7–8.15 (hitting probabilities, transience, harmonic functions, stationary distributions)
+    
 ## Study Goal
 
 This study is part of my preparation for applying to research-based programs in probability, statistics, or data science. I aim to build a solid foundation in measure-theoretic probability using classical sources such as Billingsley.
