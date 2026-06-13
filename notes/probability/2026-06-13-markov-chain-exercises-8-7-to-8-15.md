@@ -338,35 +338,6 @@ and for k ≥ 1,
 - Aperiodicity is essential when two chains must make compatible transitions at the same time.
 
 
-
-## Proof Patterns Used Today
-
-1. First-step analysis
-
-Condition on X_1 and divide the event according to the first state visited.
-
-2. Iteration
-
-Substitute the same recursive equation repeatedly to obtain an n-step expression.
-
-3. Monotone limits
-
-Approximate an infinite-time event by events occurring before time n, then let n → ∞.
-
-4. Propagation by irreducibility
-
-Prove a property passes across one positive transition, then extend it along a path.
-
-5. Counterexample construction
-
-Use an infinite state space or a periodic structure to show why a stronger uniform statement fails.
-
-6. Summability test
-
-Solve the stationary equations up to a constant and determine whether the resulting sequence can be normalized.
-
-
-
 ## Questions and Confusions
 
 One important caution concerns Exercise 8.9.
