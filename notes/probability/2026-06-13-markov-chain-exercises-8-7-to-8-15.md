@@ -1,4 +1,3 @@
-```markdown
 # Study Notes: Markov Chain Exercises 8.7–8.15
 
 Date: 2026-06-13  
@@ -9,9 +8,8 @@ Section: Chapter 1, Section 8 — Markov Chains, Exercises 8.7–8.15
 
 > **Note**:  
 > Today's focus is on proof structure in Markov chains, especially first-step decomposition, transience and recurrence, bounded harmonic functions, exit probabilities, coupling, and stationary distributions.
-```
 
-```markdown
+
 ## Content Logic
 
 The exercises form a connected sequence.
@@ -22,9 +20,9 @@ The exercises form a connected sequence.
 - Exercise 8.15 combines drift, recurrence, and stationary equations in a complete classification problem.
 
 The recurring strategy is to translate a probabilistic event into a system of equations, then study the smallest, largest, bounded, or summable solutions of that system.
-```
 
-```markdown
+
+
 ## Exercise 8.7: First-Step and Finite-Time Decomposition
 
 The hitting probability f_ik satisfies the first-step equation
@@ -48,9 +46,9 @@ Taking k = i gives a structural criterion:
 i is transient if and only if there is some j ≠ i such that f_ij > 0 and f_ji < 1.
 
 For an irreducible chain, f_ij > 0 automatically holds for all i and j. Therefore, transience can be detected by finding a reachable state from which return is not certain.
-```
 
-```markdown
+
+
 ## Exercise 8.8: An Absorbing State and Population Extinction
 
 Assume S = {0, 1, 2, ...}, p_00 = 1, and f_i0 > 0 for every i.
@@ -72,9 +70,9 @@ If X_n represents population size, then:
 - p_00 = 1 means that extinction is permanent;
 - f_i0 > 0 means that extinction is possible from every finite population size;
 - with probability one, the population either becomes extinct or eventually leaves every finite positive level, which means X_n → ∞.
-```
 
-```markdown
+
+
 ## Exercise 8.9: Bounded Signed Solutions
 
 Equation (8.27) is
@@ -94,9 +92,9 @@ For the converse, suppose a bounded nonzero signed solution exists. If the chain
 In a persistent irreducible chain, the probability of avoiding i_0 through time n tends to 0. Therefore x_i = 0 for every i, contradicting nontriviality.
 
 Thus the chain must be transient. Theorem 8.5 then guarantees a nontrivial solution of (8.27).
-```
 
-```markdown
+
+
 ## Exercise 8.10: Bounded Nonconstant Harmonic Functions
 
 Consider
@@ -125,9 +123,9 @@ Then {y_i} satisfies the full harmonic equation outside i_0.
 Therefore, for an irreducible chain,
 
 the chain is transient if and only if there exists a bounded nonconstant function that is harmonic outside an arbitrary state i_0.
-```
 
-```markdown
+
+
 ## Exercise 8.11: Exit Probabilities as the Minimal Solution
 
 Let
@@ -161,9 +159,9 @@ z_i ≥ q_i.
 Hence the actual exit probabilities form the minimal nonnegative solution.
 
 The condition z_i ≤ 1 is unnecessary because the constant sequence z_i = 1 is also a solution. The minimal solution is therefore automatically at most 1.
-```
 
-```markdown
+
+
 ## Exercise 8.12: Pointwise Thresholds Need Not Be Uniform
 
 Lemma 2 states that, in an irreducible aperiodic chain, for every fixed pair i, j there is a finite n_0(i,j) such that
@@ -196,9 +194,9 @@ for every i,j there exists n_0(i,j),
 and
 
 there exists one finite N that works for every i,j.
-```
 
-```markdown
+
+
 ## Exercise 8.13: Signs of Absolutely Summable Invariant Solutions
 
 Suppose
@@ -228,9 +226,9 @@ The same argument applies to negative components. Hence an absolutely summable i
 - or identically zero.
 
 A nontrivial solution can therefore be multiplied by −1 if necessary and normalized by its total mass. This produces stationary probabilities.
-```
 
-```markdown
+
+
 ## Exercise 8.14: Periodicity Can Destroy Irreducibility of the Coupled Chain
 
 Consider the two-state chain
@@ -265,9 +263,9 @@ and
 The coupled chain is therefore not irreducible.
 
 The example shows why aperiodicity is needed in Theorem 8.6: both coordinates must be able to complete the required transitions at the same time.
-```
 
-```markdown
+
+
 ## Exercise 8.15: Drift, Recurrence, and Stationary Probabilities
 
 The state space is ℤ. At 0,
@@ -327,9 +325,9 @@ and for k ≥ 1,
 
 π_k = π_−k
     = [π_0/(3p)](q/p)^(k−1).
-```
 
-```markdown
+
+
 ## Key Ideas
 
 - First-step decomposition converts a future event into a recursive equation.
@@ -340,9 +338,9 @@ and for k ≥ 1,
 - Recurrence and the existence of stationary probabilities are different:
   recurrence requires eventual return with probability one, while stationary probabilities require positive recurrence and finite expected return time.
 - Aperiodicity is essential when two chains must make compatible transitions at the same time.
-```
 
-```markdown
+
+
 ## Proof Patterns Used Today
 
 1. First-step analysis
@@ -368,9 +366,9 @@ Use an infinite state space or a periodic structure to show why a stronger unifo
 6. Summability test
 
 Solve the stationary equations up to a constant and determine whether the resulting sequence can be normalized.
-```
 
-```markdown
+
+
 ## Questions and Confusions
 
 One important caution concerns Exercise 8.9.
@@ -396,9 +394,9 @@ Another distinction to retain is:
 persistent does not automatically mean that stationary probabilities exist.
 
 The case p = 1/2 in Exercise 8.15 is persistent but null persistent, so no stationary probability distribution exists.
-```
 
-```markdown
+
+
 ## Reflections
 
 These exercises connect probabilistic behavior with linear equations in a very concrete way.
@@ -408,4 +406,4 @@ The equations are not merely algebraic identities. Their solutions represent eve
 The most useful habit is to identify the probabilistic meaning of a proposed solution before manipulating the equation. Once that meaning is clear, first-step decomposition, iteration, and monotone convergence usually determine whether the relevant solution is minimal, maximal, bounded, or summable.
 
 The exercises also reinforce the need to read quantifiers carefully. A conclusion that holds separately for each pair of states may fail uniformly over an infinite state space.
-```
+
